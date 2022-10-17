@@ -17,6 +17,7 @@
     "experimentalDecorators": false,
     "pretty": true,
     "target": "es6",
+    "outDir": "build",
     "lib": [
       "dom",
       "es2015"
