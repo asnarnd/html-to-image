@@ -1,29 +1,33 @@
 {
   "compilerOptions": {
-    "module": "ES6",
-    "moduleResolution": "node",
-    "sourceMap": false,
     "declaration": false,
-    "removeComments": false,
-    "preserveConstEnums": true,
+    "emitDeclarationOnly": false,
     "esModuleInterop": false,
+    "experimentalDecorators": false,
+    "lib": [
+      "dom",
+      "ES6"
+    ],
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noEmitOnError": true,
-    "strictNullChecks": true,
     "noUnusedLocals": true,
-    "resolveJsonModule": true,
-    "experimentalDecorators": false,
-    "pretty": true,
-    "target": "es6",
     "outDir": "build",
-    "lib": [
-      "dom",
-      "es2015"
-    ]
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "target": "es6"
   },
   "include": [
     "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
